@@ -1,0 +1,27 @@
+{
+  "name": "hexo-cli-jiangtj",
+  "version": "1.0.0",
+  "description": "my hexo common cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiangTJ/hexo-cli.git"
+  },
+  "keywords": [
+    "hexo",
+    "hexo-cli"
+  ],
+  "author": "Mr.J",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JiangTJ/hexo-cli/issues"
+  },
+  "homepage": "https://github.com/JiangTJ/hexo-cli#readme",
+  "dependencies": {
+    "imagemin": "^6.1.0",
+    "imagemin-webp": "^5.0.0"
+  }
+}
