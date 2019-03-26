@@ -1,6 +1,6 @@
 {
-  "name": "hexo-cli-jiangtj",
-  "version": "1.0.0",
+  "name": "@jiangtj/hexo-cli",
+  "version": "0.0.1",
   "description": "my hexo common cli",
   "main": "index.js",
   "scripts": {
