@@ -1,3 +1,4 @@
+'use strict';
 const imagemin = require('imagemin');
 const imageminWebp = require('imagemin-webp');
 const fs = require('fs');
@@ -63,8 +64,7 @@ function cleanPic(root) {
     });
 }
 
-module.exports = function (args) {
-    console.log(args);
+module.exports = function (args,hexo) {
     let config = hexo.config.jiang || {};
     let path = "";
 
@@ -107,7 +107,7 @@ module.exports = function (args) {
 
     if (!path) {
         console.log('路径不能为空！')
-        return this.call('help', {_: ['webp']});
+        return hexo.call('help', {_: ['webp']});
     }
 
     //webp
@@ -116,7 +116,7 @@ module.exports = function (args) {
             imageminWebp({ quality: 75 })
         ]
     }).then(() => {
-        console.log('Images optimized');
+        console.log('Images optimized!');
     });
 
 };
