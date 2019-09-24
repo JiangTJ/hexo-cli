@@ -20,6 +20,9 @@
     "url": "https://github.com/JiangTJ/hexo-cli/issues"
   },
   "homepage": "https://github.com/JiangTJ/hexo-cli#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "imagemin": "^6.1.0",
     "imagemin-webp": "^5.0.0"
